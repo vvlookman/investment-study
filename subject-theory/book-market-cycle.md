@@ -24,7 +24,7 @@
 
 周期，主要是指事物围绕中心点或者长期趋势上下波动的现象。 
 
-![](images/cycle-wave.png)
+![](book-market-cycle/cycle-wave.png)
 
 * a：复苏阶段
 * b：上涨阶段
