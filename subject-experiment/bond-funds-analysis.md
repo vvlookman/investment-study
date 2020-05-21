@@ -114,8 +114,8 @@ print(df['daily_return'].mean(), df['daily_return'].std())
 import numpy as np
 days = df['date'].count()
 return_days = days / 3.347
-sharp_ratio = ( return_days * df['daily_return'].mean() - 0.03) / ( df['daily_return'].std() * np.sqrt(return_days) )
-print(days, sharp_ratio)
+sharpe_ratio = ( return_days * df['daily_return'].mean() - 0.03) / ( df['daily_return'].std() * np.sqrt(return_days) )
+print(days, sharpe_ratio)
 ```
 
 | 证券代码	 | 总天数 	  | 夏普比率       | 
@@ -134,4 +134,11 @@ print(days, sharp_ratio)
 
 按夏普比率看，比较突出的基金有：003109、002138、380009，而且从图上可以看到，003109、002138 胜在收益高，380009 胜在波动小。
 
-![](bond-funds-analysis/sharp-ratio-top-3.png)
+![](bond-funds-analysis/sharpe-ratio-top-3.png)
+
+
+### 其它业绩指标对比
+
+``` python
+
+```
