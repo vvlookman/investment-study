@@ -10,3 +10,4 @@
 
 * 二、实验
   * [债券基金分析](subject-experiment/bond-funds-analysis.md)
+  * [宽基指数研究](subject-experiment/board-based-index-research.md)
